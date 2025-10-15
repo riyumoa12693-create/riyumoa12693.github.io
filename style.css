@@ -1,0 +1,141 @@
+/* ===== 全体設定 ===== */
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333;
+  line-height: 1.8;
+}
+h1, h2 {
+  font-weight: 600;
+}
+a {
+  color: #0055aa;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== ヘッダー・ナビ ===== */
+.header {
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lab-name {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5em;
+}
+.nav a {
+  font-weight: 600;
+  color: #333;
+}
+.nav a:hover {
+  color: #0055aa;
+}
+
+/* ===== ヒーロー（トップ） ===== */
+.hero {
+  height: 60vh;
+  background: url('img/hero-bg.jpg') center center / cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 2em;
+  border-radius: 8px;
+  max-width: 800px;
+}
+.hero h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5em;
+}
+
+/* ===== セクション共通 ===== */
+.section {
+  padding: 4em 10%;
+  background: #fff;
+}
+.section.alt {
+  background: #f5f7fa;
+}
+h2 {
+  border-left: 5px solid #0055aa;
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* ===== テーマ一覧 ===== */
+.theme-list {
+  list-style: disc;
+  padding-left: 1.5em;
+}
+.theme-list li {
+  margin-bottom: 0.5em;
+}
+
+/* ===== お知らせ ===== */
+.news-list {
+  list-style: none;
+  padding: 0;
+}
+.news-list li {
+  margin-bottom: 0.6em;
+}
+.date {
+  color: #888;
+  margin-right: 0.5em;
+  font-size: 0.9em;
+}
+
+/* ===== メンバー ===== */
+.member-list {
+  list-style: none;
+  padding: 0;
+}
+.member-list li {
+  margin-bottom: 0.5em;
+}
+
+/* ===== 連絡先 ===== */
+.external-links {
+  margin-top: 1em;
+}
+.external-links a {
+  color: #0055aa;
+}
+.external-links a:hover {
+  color: #003f88;
+}
+
+/* ===== フッター ===== */
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
